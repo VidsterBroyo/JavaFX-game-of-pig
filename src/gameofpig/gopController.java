@@ -13,20 +13,14 @@ import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.scene.*;
-import javafx.stage.Stage;
 import javafx.fxml.Initializable;
 import javafx.scene.Node;
 import javafx.scene.control.Button;
-import javafx.scene.image.Image;
-import javafx.scene.image.ImageView;
 import javafx.scene.text.Text;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.Pane;
-import java.awt.event.*;import java.awt.*;import javax.swing.*;
-import java.util.Arrays;
 import java.util.Random;
-import javax.swing.*;
+
 /**
  * FXML Controller class
  *
@@ -184,7 +178,7 @@ public class gopController implements Initializable {
                 pane2.setStyle("-fx-opacity: 0.5; -fx-background-color:  #d4fcb3;");  pane1.setStyle("-fx-opacity: 1; -fx-background-color:  #e787ff;");
 
                 // display new player
-                gopMessage.setText(gopMessage.getText()+" It's Player 2's turn!");
+                gopMessage.setText(gopMessage.getText()+" It's Player 1's turn!");
             }
         }
         
